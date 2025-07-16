@@ -19,7 +19,7 @@ steps:
   - 'runimage-sha256-1=gcr.io/${_PROJECT_ID}/${_CINAME}:${_VERSION}'
   env : 
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=cicd-cluster'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=cici-cluster'
 
 substitutions:
   _PROJECT_ID : gcp-devops-463911
